@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Looker Custom Vis Builder</title>
+  <meta name="description" content="An IDE for building Looker Custom Visualizations">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="node_modules/codemirror/lib/codemirror.css">
+</head>
+
+<body>
+  <div id="top-bar">
+    <h2>Looker Custom Visualization Builder</h2>
+    <div id="control-panel">
+      <button id="run-button">Run</button>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="grid-element column-1 row-1" id="visEditorWrapper">
+      <h4>Visualization JS</h4>
+      <div id="visEditor" class="editor"></div>
+    </div>
+    <div class="grid-element column-3 row-1" id="queryEditorWrapper">
+      <h4>Query Response</h4>
+      <div id="queryResponseEditor" class="editor"></div>
+    </div>
+    <div class="grid-element column-1 row-3" id="dataEditorWrapper">
+      <h4>Raw Data</h4>
+      <div id="dataEditor" class="editor"></div>
+    </div>
+    <div class="grid-element column-3 row-3" id="visWrapper">
+      <h4>Rendered Visualization</h4>
+    </div>
+  </div>
+
+  <!-- <iframe height=600 width=800 src="vis.html"></iframe> -->
+
+  <script src="dist/index.js"></script>
+</body>
+
+</html>

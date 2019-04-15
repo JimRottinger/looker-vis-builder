@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@looker/chatty": "^1.2.7",
+    "@looker/sandy": "1.1.2",
+    "@types/node": "^11.13.2",
+    "chatty": "^1.2.7",
+    "codemirror": "^5.45.0",
+    "split-grid": "^1.0.9"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.7",
+    "raw-loader": "^2.0.0",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.0"
+  }
+}

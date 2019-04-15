@@ -1,0 +1,44 @@
+html, body, iframe {
+    height: 100%;
+    width: 100%;
+}
+
+h4 {
+    margin: 4px;
+}
+
+#top-bar {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-between;
+}
+
+#control-panel {
+    padding: 20px;
+}
+
+#control-panel button {
+    padding: 2px;
+    font-size: 24px;
+}
+
+.grid {
+    height: calc(100% - 100px);
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-element {
+    border: 1px solid #333;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.grid-element .editor {
+    height: 100%;
+}
+
+.grid-element .CodeMirror {
+    height: calc(100% - 34px);
+}

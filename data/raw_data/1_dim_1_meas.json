@@ -1,0 +1,173 @@
+[
+  {
+    "game.friendly_class": { "value": "Mage" },
+    "game.count": {
+      "value": 5702,
+      "rendered": "5,702",
+      "links": [
+        {
+          "label": "Show All 5,702",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Mage&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warlock" },
+    "game.count": {
+      "value": 5586,
+      "rendered": "5,586",
+      "links": [
+        {
+          "label": "Show All 5,586",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warlock&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Druid" },
+    "game.count": {
+      "value": 5578,
+      "rendered": "5,578",
+      "links": [
+        {
+          "label": "Show All 5,578",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Druid&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Rogue" },
+    "game.count": {
+      "value": 5572,
+      "rendered": "5,572",
+      "links": [
+        {
+          "label": "Show All 5,572",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Rogue&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warrior" },
+    "game.count": {
+      "value": 5540,
+      "rendered": "5,540",
+      "links": [
+        {
+          "label": "Show All 5,540",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warrior&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Priest" },
+    "game.count": {
+      "value": 5522,
+      "rendered": "5,522",
+      "links": [
+        {
+          "label": "Show All 5,522",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Priest&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Paladin" },
+    "game.count": {
+      "value": 5519,
+      "rendered": "5,519",
+      "links": [
+        {
+          "label": "Show All 5,519",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Paladin&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Hunter" },
+    "game.count": {
+      "value": 5505,
+      "rendered": "5,505",
+      "links": [
+        {
+          "label": "Show All 5,505",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Hunter&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Shaman" },
+    "game.count": {
+      "value": 5480,
+      "rendered": "5,480",
+      "links": [
+        {
+          "label": "Show All 5,480",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Shaman&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  }
+]

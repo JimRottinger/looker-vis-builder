@@ -1,0 +1,470 @@
+[
+  {
+    "game.friendly_class": { "value": "Mage" },
+    "game.count": {
+      "loss": {
+        "value": 2874,
+        "rendered": "2,874",
+        "links": [
+          {
+            "label": "Show All 2,874",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Mage&f[game.result]=loss&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "tie": {
+        "value": 57,
+        "links": [
+          {
+            "label": "Show All 57",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Mage&f[game.result]=tie&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "win": {
+        "value": 2771,
+        "rendered": "2,771",
+        "links": [
+          {
+            "label": "Show All 2,771",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Mage&f[game.result]=win&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warlock" },
+    "game.count": {
+      "loss": {
+        "value": 2812,
+        "rendered": "2,812",
+        "links": [
+          {
+            "label": "Show All 2,812",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warlock&f[game.result]=loss&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "tie": {
+        "value": 57,
+        "links": [
+          {
+            "label": "Show All 57",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warlock&f[game.result]=tie&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "win": {
+        "value": 2717,
+        "rendered": "2,717",
+        "links": [
+          {
+            "label": "Show All 2,717",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warlock&f[game.result]=win&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Priest" },
+    "game.count": {
+      "loss": {
+        "value": 2761,
+        "rendered": "2,761",
+        "links": [
+          {
+            "label": "Show All 2,761",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Priest&f[game.result]=loss&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "tie": {
+        "value": 58,
+        "links": [
+          {
+            "label": "Show All 58",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Priest&f[game.result]=tie&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "win": {
+        "value": 2703,
+        "rendered": "2,703",
+        "links": [
+          {
+            "label": "Show All 2,703",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Priest&f[game.result]=win&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Paladin" },
+    "game.count": {
+      "loss": {
+        "value": 2731,
+        "rendered": "2,731",
+        "links": [
+          {
+            "label": "Show All 2,731",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Paladin&f[game.result]=loss&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "tie": {
+        "value": 55,
+        "links": [
+          {
+            "label": "Show All 55",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Paladin&f[game.result]=tie&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "win": {
+        "value": 2733,
+        "rendered": "2,733",
+        "links": [
+          {
+            "label": "Show All 2,733",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Paladin&f[game.result]=win&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Shaman" },
+    "game.count": {
+      "loss": {
+        "value": 2713,
+        "rendered": "2,713",
+        "links": [
+          {
+            "label": "Show All 2,713",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Shaman&f[game.result]=loss&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "tie": {
+        "value": 55,
+        "links": [
+          {
+            "label": "Show All 55",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Shaman&f[game.result]=tie&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "win": {
+        "value": 2712,
+        "rendered": "2,712",
+        "links": [
+          {
+            "label": "Show All 2,712",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Shaman&f[game.result]=win&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Rogue" },
+    "game.count": {
+      "loss": {
+        "value": 2707,
+        "rendered": "2,707",
+        "links": [
+          {
+            "label": "Show All 2,707",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Rogue&f[game.result]=loss&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "tie": {
+        "value": 47,
+        "links": [
+          {
+            "label": "Show All 47",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Rogue&f[game.result]=tie&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "win": {
+        "value": 2818,
+        "rendered": "2,818",
+        "links": [
+          {
+            "label": "Show All 2,818",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Rogue&f[game.result]=win&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warrior" },
+    "game.count": {
+      "loss": {
+        "value": 2702,
+        "rendered": "2,702",
+        "links": [
+          {
+            "label": "Show All 2,702",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warrior&f[game.result]=loss&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "tie": {
+        "value": 47,
+        "links": [
+          {
+            "label": "Show All 47",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warrior&f[game.result]=tie&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "win": {
+        "value": 2791,
+        "rendered": "2,791",
+        "links": [
+          {
+            "label": "Show All 2,791",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warrior&f[game.result]=win&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Hunter" },
+    "game.count": {
+      "loss": {
+        "value": 2682,
+        "rendered": "2,682",
+        "links": [
+          {
+            "label": "Show All 2,682",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Hunter&f[game.result]=loss&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "tie": {
+        "value": 56,
+        "links": [
+          {
+            "label": "Show All 56",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Hunter&f[game.result]=tie&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "win": {
+        "value": 2767,
+        "rendered": "2,767",
+        "links": [
+          {
+            "label": "Show All 2,767",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Hunter&f[game.result]=win&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Druid" },
+    "game.count": {
+      "loss": {
+        "value": 2669,
+        "rendered": "2,669",
+        "links": [
+          {
+            "label": "Show All 2,669",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Druid&f[game.result]=loss&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "tie": {
+        "value": 62,
+        "links": [
+          {
+            "label": "Show All 62",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Druid&f[game.result]=tie&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      },
+      "win": {
+        "value": 2847,
+        "rendered": "2,847",
+        "links": [
+          {
+            "label": "Show All 2,847",
+            "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Druid&f[game.result]=win&limit=500",
+            "type": "measure_default"
+          },
+          {
+            "label": "False Link",
+            "url": "https://learn.looker.com/dashboards/694?State=",
+            "type": "url"
+          }
+        ]
+      }
+    }
+  }
+]

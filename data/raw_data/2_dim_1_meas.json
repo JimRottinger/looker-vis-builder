@@ -1,0 +1,1541 @@
+[
+  {
+    "game.friendly_class": { "value": "Mage" },
+    "game.opponent_class": { "value": "Paladin" },
+    "game.count": {
+      "value": 680,
+      "links": [
+        {
+          "label": "Show All 680",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Mage&f[game.opponent_class]=Paladin&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Hunter" },
+    "game.opponent_class": { "value": "Paladin" },
+    "game.count": {
+      "value": 657,
+      "links": [
+        {
+          "label": "Show All 657",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Hunter&f[game.opponent_class]=Paladin&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Shaman" },
+    "game.opponent_class": { "value": "Paladin" },
+    "game.count": {
+      "value": 656,
+      "links": [
+        {
+          "label": "Show All 656",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Shaman&f[game.opponent_class]=Paladin&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Shaman" },
+    "game.opponent_class": { "value": "Priest" },
+    "game.count": {
+      "value": 653,
+      "links": [
+        {
+          "label": "Show All 653",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Shaman&f[game.opponent_class]=Priest&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warlock" },
+    "game.opponent_class": { "value": "Hunter" },
+    "game.count": {
+      "value": 653,
+      "links": [
+        {
+          "label": "Show All 653",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warlock&f[game.opponent_class]=Hunter&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Mage" },
+    "game.opponent_class": { "value": "Mage" },
+    "game.count": {
+      "value": 647,
+      "links": [
+        {
+          "label": "Show All 647",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Mage&f[game.opponent_class]=Mage&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Rogue" },
+    "game.opponent_class": { "value": "Mage" },
+    "game.count": {
+      "value": 647,
+      "links": [
+        {
+          "label": "Show All 647",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Rogue&f[game.opponent_class]=Mage&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warrior" },
+    "game.opponent_class": { "value": "Paladin" },
+    "game.count": {
+      "value": 646,
+      "links": [
+        {
+          "label": "Show All 646",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warrior&f[game.opponent_class]=Paladin&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Mage" },
+    "game.opponent_class": { "value": "Shaman" },
+    "game.count": {
+      "value": 643,
+      "links": [
+        {
+          "label": "Show All 643",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Mage&f[game.opponent_class]=Shaman&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warrior" },
+    "game.opponent_class": { "value": "Shaman" },
+    "game.count": {
+      "value": 642,
+      "links": [
+        {
+          "label": "Show All 642",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warrior&f[game.opponent_class]=Shaman&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Priest" },
+    "game.opponent_class": { "value": "Warrior" },
+    "game.count": {
+      "value": 641,
+      "links": [
+        {
+          "label": "Show All 641",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Priest&f[game.opponent_class]=Warrior&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Paladin" },
+    "game.opponent_class": { "value": "Rogue" },
+    "game.count": {
+      "value": 641,
+      "links": [
+        {
+          "label": "Show All 641",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Paladin&f[game.opponent_class]=Rogue&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Rogue" },
+    "game.opponent_class": { "value": "Hunter" },
+    "game.count": {
+      "value": 640,
+      "links": [
+        {
+          "label": "Show All 640",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Rogue&f[game.opponent_class]=Hunter&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Hunter" },
+    "game.opponent_class": { "value": "Priest" },
+    "game.count": {
+      "value": 637,
+      "links": [
+        {
+          "label": "Show All 637",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Hunter&f[game.opponent_class]=Priest&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warrior" },
+    "game.opponent_class": { "value": "Priest" },
+    "game.count": {
+      "value": 637,
+      "links": [
+        {
+          "label": "Show All 637",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warrior&f[game.opponent_class]=Priest&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warrior" },
+    "game.opponent_class": { "value": "Hunter" },
+    "game.count": {
+      "value": 636,
+      "links": [
+        {
+          "label": "Show All 636",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warrior&f[game.opponent_class]=Hunter&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Paladin" },
+    "game.opponent_class": { "value": "Druid" },
+    "game.count": {
+      "value": 634,
+      "links": [
+        {
+          "label": "Show All 634",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Paladin&f[game.opponent_class]=Druid&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warlock" },
+    "game.opponent_class": { "value": "Mage" },
+    "game.count": {
+      "value": 634,
+      "links": [
+        {
+          "label": "Show All 634",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warlock&f[game.opponent_class]=Mage&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Rogue" },
+    "game.opponent_class": { "value": "Priest" },
+    "game.count": {
+      "value": 633,
+      "links": [
+        {
+          "label": "Show All 633",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Rogue&f[game.opponent_class]=Priest&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Mage" },
+    "game.opponent_class": { "value": "Druid" },
+    "game.count": {
+      "value": 633,
+      "links": [
+        {
+          "label": "Show All 633",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Mage&f[game.opponent_class]=Druid&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Druid" },
+    "game.opponent_class": { "value": "Warrior" },
+    "game.count": {
+      "value": 633,
+      "links": [
+        {
+          "label": "Show All 633",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Druid&f[game.opponent_class]=Warrior&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Druid" },
+    "game.opponent_class": { "value": "Paladin" },
+    "game.count": {
+      "value": 633,
+      "links": [
+        {
+          "label": "Show All 633",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Druid&f[game.opponent_class]=Paladin&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Druid" },
+    "game.opponent_class": { "value": "Druid" },
+    "game.count": {
+      "value": 632,
+      "links": [
+        {
+          "label": "Show All 632",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Druid&f[game.opponent_class]=Druid&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Shaman" },
+    "game.opponent_class": { "value": "Warrior" },
+    "game.count": {
+      "value": 631,
+      "links": [
+        {
+          "label": "Show All 631",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Shaman&f[game.opponent_class]=Warrior&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Hunter" },
+    "game.opponent_class": { "value": "Shaman" },
+    "game.count": {
+      "value": 631,
+      "links": [
+        {
+          "label": "Show All 631",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Hunter&f[game.opponent_class]=Shaman&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Hunter" },
+    "game.opponent_class": { "value": "Warlock" },
+    "game.count": {
+      "value": 631,
+      "links": [
+        {
+          "label": "Show All 631",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Hunter&f[game.opponent_class]=Warlock&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warlock" },
+    "game.opponent_class": { "value": "Shaman" },
+    "game.count": {
+      "value": 631,
+      "links": [
+        {
+          "label": "Show All 631",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warlock&f[game.opponent_class]=Shaman&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Druid" },
+    "game.opponent_class": { "value": "Mage" },
+    "game.count": {
+      "value": 631,
+      "links": [
+        {
+          "label": "Show All 631",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Druid&f[game.opponent_class]=Mage&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Priest" },
+    "game.opponent_class": { "value": "Rogue" },
+    "game.count": {
+      "value": 630,
+      "links": [
+        {
+          "label": "Show All 630",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Priest&f[game.opponent_class]=Rogue&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warlock" },
+    "game.opponent_class": { "value": "Paladin" },
+    "game.count": {
+      "value": 629,
+      "links": [
+        {
+          "label": "Show All 629",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warlock&f[game.opponent_class]=Paladin&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Rogue" },
+    "game.opponent_class": { "value": "Rogue" },
+    "game.count": {
+      "value": 628,
+      "links": [
+        {
+          "label": "Show All 628",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Rogue&f[game.opponent_class]=Rogue&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Druid" },
+    "game.opponent_class": { "value": "Rogue" },
+    "game.count": {
+      "value": 628,
+      "links": [
+        {
+          "label": "Show All 628",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Druid&f[game.opponent_class]=Rogue&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warlock" },
+    "game.opponent_class": { "value": "Warrior" },
+    "game.count": {
+      "value": 628,
+      "links": [
+        {
+          "label": "Show All 628",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warlock&f[game.opponent_class]=Warrior&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Mage" },
+    "game.opponent_class": { "value": "Warlock" },
+    "game.count": {
+      "value": 625,
+      "links": [
+        {
+          "label": "Show All 625",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Mage&f[game.opponent_class]=Warlock&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Mage" },
+    "game.opponent_class": { "value": "Priest" },
+    "game.count": {
+      "value": 624,
+      "links": [
+        {
+          "label": "Show All 624",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Mage&f[game.opponent_class]=Priest&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Druid" },
+    "game.opponent_class": { "value": "Shaman" },
+    "game.count": {
+      "value": 622,
+      "links": [
+        {
+          "label": "Show All 622",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Druid&f[game.opponent_class]=Shaman&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Mage" },
+    "game.opponent_class": { "value": "Hunter" },
+    "game.count": {
+      "value": 622,
+      "links": [
+        {
+          "label": "Show All 622",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Mage&f[game.opponent_class]=Hunter&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warlock" },
+    "game.opponent_class": { "value": "Rogue" },
+    "game.count": {
+      "value": 621,
+      "links": [
+        {
+          "label": "Show All 621",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warlock&f[game.opponent_class]=Rogue&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Priest" },
+    "game.opponent_class": { "value": "Paladin" },
+    "game.count": {
+      "value": 621,
+      "links": [
+        {
+          "label": "Show All 621",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Priest&f[game.opponent_class]=Paladin&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Priest" },
+    "game.opponent_class": { "value": "Priest" },
+    "game.count": {
+      "value": 620,
+      "links": [
+        {
+          "label": "Show All 620",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Priest&f[game.opponent_class]=Priest&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Paladin" },
+    "game.opponent_class": { "value": "Priest" },
+    "game.count": {
+      "value": 620,
+      "links": [
+        {
+          "label": "Show All 620",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Paladin&f[game.opponent_class]=Priest&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Paladin" },
+    "game.opponent_class": { "value": "Hunter" },
+    "game.count": {
+      "value": 619,
+      "links": [
+        {
+          "label": "Show All 619",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Paladin&f[game.opponent_class]=Hunter&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Shaman" },
+    "game.opponent_class": { "value": "Shaman" },
+    "game.count": {
+      "value": 618,
+      "links": [
+        {
+          "label": "Show All 618",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Shaman&f[game.opponent_class]=Shaman&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Mage" },
+    "game.opponent_class": { "value": "Rogue" },
+    "game.count": {
+      "value": 617,
+      "links": [
+        {
+          "label": "Show All 617",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Mage&f[game.opponent_class]=Rogue&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Rogue" },
+    "game.opponent_class": { "value": "Shaman" },
+    "game.count": {
+      "value": 616,
+      "links": [
+        {
+          "label": "Show All 616",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Rogue&f[game.opponent_class]=Shaman&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Paladin" },
+    "game.opponent_class": { "value": "Paladin" },
+    "game.count": {
+      "value": 615,
+      "links": [
+        {
+          "label": "Show All 615",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Paladin&f[game.opponent_class]=Paladin&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Priest" },
+    "game.opponent_class": { "value": "Mage" },
+    "game.count": {
+      "value": 614,
+      "links": [
+        {
+          "label": "Show All 614",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Priest&f[game.opponent_class]=Mage&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Druid" },
+    "game.opponent_class": { "value": "Warlock" },
+    "game.count": {
+      "value": 613,
+      "links": [
+        {
+          "label": "Show All 613",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Druid&f[game.opponent_class]=Warlock&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warlock" },
+    "game.opponent_class": { "value": "Priest" },
+    "game.count": {
+      "value": 612,
+      "links": [
+        {
+          "label": "Show All 612",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warlock&f[game.opponent_class]=Priest&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Hunter" },
+    "game.opponent_class": { "value": "Druid" },
+    "game.count": {
+      "value": 611,
+      "links": [
+        {
+          "label": "Show All 611",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Hunter&f[game.opponent_class]=Druid&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Mage" },
+    "game.opponent_class": { "value": "Warrior" },
+    "game.count": {
+      "value": 611,
+      "links": [
+        {
+          "label": "Show All 611",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Mage&f[game.opponent_class]=Warrior&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Rogue" },
+    "game.opponent_class": { "value": "Druid" },
+    "game.count": {
+      "value": 610,
+      "links": [
+        {
+          "label": "Show All 610",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Rogue&f[game.opponent_class]=Druid&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Priest" },
+    "game.opponent_class": { "value": "Shaman" },
+    "game.count": {
+      "value": 610,
+      "links": [
+        {
+          "label": "Show All 610",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Priest&f[game.opponent_class]=Shaman&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Druid" },
+    "game.opponent_class": { "value": "Hunter" },
+    "game.count": {
+      "value": 609,
+      "links": [
+        {
+          "label": "Show All 609",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Druid&f[game.opponent_class]=Hunter&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Priest" },
+    "game.opponent_class": { "value": "Warlock" },
+    "game.count": {
+      "value": 608,
+      "links": [
+        {
+          "label": "Show All 608",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Priest&f[game.opponent_class]=Warlock&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Paladin" },
+    "game.opponent_class": { "value": "Warrior" },
+    "game.count": {
+      "value": 608,
+      "links": [
+        {
+          "label": "Show All 608",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Paladin&f[game.opponent_class]=Warrior&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Paladin" },
+    "game.opponent_class": { "value": "Mage" },
+    "game.count": {
+      "value": 607,
+      "links": [
+        {
+          "label": "Show All 607",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Paladin&f[game.opponent_class]=Mage&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warlock" },
+    "game.opponent_class": { "value": "Warlock" },
+    "game.count": {
+      "value": 604,
+      "links": [
+        {
+          "label": "Show All 604",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warlock&f[game.opponent_class]=Warlock&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Hunter" },
+    "game.opponent_class": { "value": "Hunter" },
+    "game.count": {
+      "value": 604,
+      "links": [
+        {
+          "label": "Show All 604",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Hunter&f[game.opponent_class]=Hunter&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Shaman" },
+    "game.opponent_class": { "value": "Rogue" },
+    "game.count": {
+      "value": 604,
+      "links": [
+        {
+          "label": "Show All 604",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Shaman&f[game.opponent_class]=Rogue&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Hunter" },
+    "game.opponent_class": { "value": "Rogue" },
+    "game.count": {
+      "value": 602,
+      "links": [
+        {
+          "label": "Show All 602",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Hunter&f[game.opponent_class]=Rogue&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Rogue" },
+    "game.opponent_class": { "value": "Paladin" },
+    "game.count": {
+      "value": 601,
+      "links": [
+        {
+          "label": "Show All 601",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Rogue&f[game.opponent_class]=Paladin&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Shaman" },
+    "game.opponent_class": { "value": "Mage" },
+    "game.count": {
+      "value": 600,
+      "links": [
+        {
+          "label": "Show All 600",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Shaman&f[game.opponent_class]=Mage&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Rogue" },
+    "game.opponent_class": { "value": "Warlock" },
+    "game.count": {
+      "value": 600,
+      "links": [
+        {
+          "label": "Show All 600",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Rogue&f[game.opponent_class]=Warlock&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warrior" },
+    "game.opponent_class": { "value": "Warlock" },
+    "game.count": {
+      "value": 599,
+      "links": [
+        {
+          "label": "Show All 599",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warrior&f[game.opponent_class]=Warlock&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Shaman" },
+    "game.opponent_class": { "value": "Druid" },
+    "game.count": {
+      "value": 597,
+      "links": [
+        {
+          "label": "Show All 597",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Shaman&f[game.opponent_class]=Druid&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Rogue" },
+    "game.opponent_class": { "value": "Warrior" },
+    "game.count": {
+      "value": 597,
+      "links": [
+        {
+          "label": "Show All 597",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Rogue&f[game.opponent_class]=Warrior&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Priest" },
+    "game.opponent_class": { "value": "Druid" },
+    "game.count": {
+      "value": 597,
+      "links": [
+        {
+          "label": "Show All 597",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Priest&f[game.opponent_class]=Druid&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warrior" },
+    "game.opponent_class": { "value": "Mage" },
+    "game.count": {
+      "value": 597,
+      "links": [
+        {
+          "label": "Show All 597",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warrior&f[game.opponent_class]=Mage&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Paladin" },
+    "game.opponent_class": { "value": "Shaman" },
+    "game.count": {
+      "value": 596,
+      "links": [
+        {
+          "label": "Show All 596",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Paladin&f[game.opponent_class]=Shaman&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warrior" },
+    "game.opponent_class": { "value": "Druid" },
+    "game.count": {
+      "value": 596,
+      "links": [
+        {
+          "label": "Show All 596",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warrior&f[game.opponent_class]=Druid&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warrior" },
+    "game.opponent_class": { "value": "Rogue" },
+    "game.count": {
+      "value": 596,
+      "links": [
+        {
+          "label": "Show All 596",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warrior&f[game.opponent_class]=Rogue&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warrior" },
+    "game.opponent_class": { "value": "Warrior" },
+    "game.count": {
+      "value": 591,
+      "links": [
+        {
+          "label": "Show All 591",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warrior&f[game.opponent_class]=Warrior&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Hunter" },
+    "game.opponent_class": { "value": "Warrior" },
+    "game.count": {
+      "value": 586,
+      "links": [
+        {
+          "label": "Show All 586",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Hunter&f[game.opponent_class]=Warrior&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Priest" },
+    "game.opponent_class": { "value": "Hunter" },
+    "game.count": {
+      "value": 581,
+      "links": [
+        {
+          "label": "Show All 581",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Priest&f[game.opponent_class]=Hunter&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Paladin" },
+    "game.opponent_class": { "value": "Warlock" },
+    "game.count": {
+      "value": 579,
+      "links": [
+        {
+          "label": "Show All 579",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Paladin&f[game.opponent_class]=Warlock&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Druid" },
+    "game.opponent_class": { "value": "Priest" },
+    "game.count": {
+      "value": 577,
+      "links": [
+        {
+          "label": "Show All 577",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Druid&f[game.opponent_class]=Priest&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Warlock" },
+    "game.opponent_class": { "value": "Druid" },
+    "game.count": {
+      "value": 574,
+      "links": [
+        {
+          "label": "Show All 574",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Warlock&f[game.opponent_class]=Druid&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Shaman" },
+    "game.opponent_class": { "value": "Warlock" },
+    "game.count": {
+      "value": 570,
+      "links": [
+        {
+          "label": "Show All 570",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Shaman&f[game.opponent_class]=Warlock&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Shaman" },
+    "game.opponent_class": { "value": "Hunter" },
+    "game.count": {
+      "value": 551,
+      "links": [
+        {
+          "label": "Show All 551",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Shaman&f[game.opponent_class]=Hunter&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  },
+  {
+    "game.friendly_class": { "value": "Hunter" },
+    "game.opponent_class": { "value": "Mage" },
+    "game.count": {
+      "value": 546,
+      "links": [
+        {
+          "label": "Show All 546",
+          "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Hunter&f[game.opponent_class]=Mage&limit=500",
+          "type": "measure_default"
+        },
+        {
+          "label": "False Link",
+          "url": "https://learn.looker.com/dashboards/694?State=",
+          "type": "url"
+        }
+      ]
+    }
+  }
+]
