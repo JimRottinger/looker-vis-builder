@@ -3,10 +3,10 @@
     "game.friendly_class": { "value": "Mage" },
     "game.opponent_class": { "value": "Paladin" },
     "game.count": {
-      "value": 680,
+      "value": 68,
       "links": [
         {
-          "label": "Show All 680",
+          "label": "Show All 68",
           "url": "/explore/hearthstone/game?fields=game.id&f[game.friendly_class]=Mage&f[game.opponent_class]=Paladin&limit=500",
           "type": "measure_default"
         },

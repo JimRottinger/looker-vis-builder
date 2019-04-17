@@ -6,7 +6,7 @@ import '../node_modules/codemirror/mode/javascript/javascript.js'
 
 // Example Data and Visualizations
 const TestData = require('../data/raw_data/2_dim_1_meas.json')
-const TestJS = require('../examples/text.txt')
+const TestJS = require('../examples/liquid_fill_gauge.txt')
 
 var visCodeMirror = CodeMirror(document.getElementById("visEditor"), {
   value: TestJS.default,

@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     mustermann (1.0.3)
+    puma (3.12.1)
     puma (3.12.1-java)
     rack (2.0.7)
     rack-protection (2.0.5)
@@ -19,6 +20,7 @@ GEM
 
 PLATFORMS
   java
+  ruby
 
 DEPENDENCIES
   puma
@@ -27,4 +29,4 @@ DEPENDENCIES
   slim
 
 BUNDLED WITH
-   1.16.1
+   2.0.1
