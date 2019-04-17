@@ -64,17 +64,27 @@ document.getElementById("run-button").addEventListener("click", function(this: H
     deps: JSON.parse(depsCodeMirror.getValue())
   }
 
+  let config = {}
+  let myHost = null
+
   const request = new Request('/visualization/update', {method: 'POST', body: JSON.stringify(options)});
 
   fetch(request).then((response: any) => {
     visEl.innerHTML = '<h4>Rendered Visualization</h4>'
     Chatty.createHost(`/visualization`)
-    .appendTo(visEl)
-    .build()
-    .connect().then((host: any) => {
-      host.send('Create', null , {})
-      host.send('UpdateAsync', JSON.parse(options.data), null, {}, JSON.parse(options.query), '')
-    }).catch(console.error)
+      .on('Create', (config) => {
+        config = config
+
+        if (!myHost) return
+
+        myHost.send('UpdateAsync', JSON.parse(options.data), null, config, JSON.parse(options.query), '')
+      })
+      .appendTo(visEl)
+      .build()
+      .connect().then((host: any) => {
+        myHost = host
+        myHost.send('Create', null , config)
+      }).catch(console.error)
 
     this.disabled = false
   })
