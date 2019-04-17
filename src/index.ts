@@ -1,7 +1,7 @@
 import { Chatty } from "@looker/chatty"
 import CodeMirror from "codemirror"
 const QueryResponse = require('../data/query_responses/2_dim_1_meas.json')
-import Split from 'split-grid'
+// import Split from 'split-grid'
 import '../node_modules/codemirror/mode/javascript/javascript.js'
 
 // Example Data and Visualizations
@@ -41,23 +41,6 @@ var depsCodeMirror = CodeMirror(document.getElementById("depsEditor"), {
   tabSize: 2,
   lineNumbers: true
 });
-
-Split({ // gutters specified in options
-  columnGutters: [{
-      track: 1,
-      element: document.querySelector('.column-1'),
-  }, {
-      track: 3,
-      element: document.querySelector('.column-3'),
-  }],
-  rowGutters: [{
-      track: 1,
-      element: document.querySelector('.row-1'),
-  }, {
-    track: 3,
-      element: document.querySelector('.row-3')
-  }]
-})
 
 const visEl = document.getElementById('visWrapper')
 

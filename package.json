@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "bundle install && npm install && npx webpack"
+  },
   "dependencies": {
     "@looker/chatty": "^1.2.7",
     "@looker/sandy": "1.1.2",
