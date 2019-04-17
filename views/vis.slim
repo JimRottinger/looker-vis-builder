@@ -1,9 +1,7 @@
 html
   head
-    script crossorigin="anonymous" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" src="https://code.jquery.com/jquery-2.2.4.min.js" 
-    script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" 
-    script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js" 
-    script src="../src/vendor/d3v4.js" 
+    - for location in dependencies
+      script[async = false src = location]
     javascript:
       function formatType(valueFormat) {
         if (typeof valueFormat != "string") {
@@ -93,4 +91,4 @@ html
       })
     script src="../node_modules/@looker/sandy/dist/sandy.js"
   body
-    #vis
+    #vis style="overflow: scroll"

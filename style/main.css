@@ -25,8 +25,35 @@ h4 {
 .grid {
     height: calc(100% - 100px);
     display: grid;
-    grid-template-rows: 50% 50%;
     grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(6, 16.67%);
+}
+
+#visEditorWrapper {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 6;
+}
+
+#queryEditorWrapper,
+#dataEditorWrapper,
+#depsEditorWrapper
+ {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+}
+
+#dataEditorWrapper {
+    grid-row: 2 / span 1;
+}
+
+#depsEditorWrapper {
+    grid-row: 3 / span 1;
+}
+
+#visWrapper
+ {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 3;
 }
 
 .grid-element {
