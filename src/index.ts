@@ -7,6 +7,12 @@ import '../node_modules/codemirror/mode/javascript/javascript.js'
 // Example Data and Visualizations
 const TestData = require('../data/raw_data/2_dim_1_meas.json')
 const TestJS = require('../examples/text.txt')
+const DEPS = [
+  "https://code.jquery.com/jquery-2.2.4.min.js",
+  "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js",
+  "https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"
+]
+
 
 var visCodeMirror = CodeMirror(document.getElementById("visEditor"), {
   value: TestJS.default,
@@ -24,6 +30,13 @@ var queryCodeMirror = CodeMirror(document.getElementById("queryResponseEditor"),
 
 var dataCodeMirror = CodeMirror(document.getElementById("dataEditor"), {
   value: JSON.stringify(TestData, null, 4),
+  mode:  "javascript",
+  tabSize: 2,
+  lineNumbers: true
+});
+
+var depsCodeMirror = CodeMirror(document.getElementById("depsEditor"), {
+  value: JSON.stringify(DEPS, null, 4),
   mode:  "javascript",
   tabSize: 2,
   lineNumbers: true
@@ -65,6 +78,7 @@ document.getElementById("run-button").addEventListener("click", function(this: H
     data: dataCodeMirror.getValue(),
     js: visCodeMirror.getValue(),
     query: queryCodeMirror.getValue(),
+    deps: JSON.parse(depsCodeMirror.getValue())
   }
 
   const request = new Request('/visualization/update', {method: 'POST', body: JSON.stringify(options)});
