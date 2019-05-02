@@ -3,6 +3,7 @@ require 'slim'
 
 set :public_folder, File.dirname(__FILE__)
 
+JS = File.read('examples/liquid_fill_gauge.txt')
 JS = File.read('examples/text.txt')
 DEPS = [
   "https://code.jquery.com/jquery-2.2.4.min.js",
@@ -11,7 +12,7 @@ DEPS = [
 ]
 
 get '/' do
-  JS = File.read('examples/text.txt')
+  JS = File.read('examples/liquid_fill_gauge.txt')
   File.read('index.html')
 end
 

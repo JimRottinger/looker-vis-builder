@@ -6,13 +6,12 @@ import '../node_modules/codemirror/mode/javascript/javascript.js'
 
 // Example Data and Visualizations
 const TestData = require('../data/raw_data/2_dim_1_meas.json')
-const TestJS = require('../examples/text.txt')
+const TestJS = require('../examples/liquid_fill_gauge.txt')
 const DEPS = [
   "https://code.jquery.com/jquery-2.2.4.min.js",
   "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js",
   "https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"
 ]
-
 
 var visCodeMirror = CodeMirror(document.getElementById("visEditor"), {
   value: TestJS.default,
