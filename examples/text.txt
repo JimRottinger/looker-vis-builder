@@ -79,6 +79,7 @@ const visObject = {
       .data(formattedData)
       .enter().append("rect")
       .attr("class", "bar")
+      .attr("style", "fill: #6c43e0;")
       .attr("x", function(d) { return x(d.friendly_class); })
       .attr("width", x.bandwidth())
       .attr("y", function(d) { return y(d.count); })

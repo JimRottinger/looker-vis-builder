@@ -20,11 +20,10 @@ class LookerVisBuilder extends React.Component {
     return (
       <div>
         <div id="top-bar">
+          <div class="shadow-el" />
           <h4>Looker Custom Visualization Builder</h4>
           <div id="control-panel">
-            <button id="run-button" class="btn-lg btn-primary">
-              Run
-            </button>
+            <button id="run-button">Run</button>
           </div>
         </div>
 
