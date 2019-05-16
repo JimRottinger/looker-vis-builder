@@ -1,24 +1,19 @@
 {
   "version": "2.0.2",
   "compilerOptions": {
-      "lib": ["es5", "es2015.promise", "dom", "es2015"],
-      "target": "es5",
-      "typeRoots": [
-        "node_modules/@types"
-      ],
-      "outDir": "dist",
-      "module": "es2015",
-      "moduleResolution": "node",
-      "emitDecoratorMetadata": true,
-      "experimentalDecorators": true,
-      "allowSyntheticDefaultImports": true,
-      "declaration": false,
-      "sourceMap": true
+    "lib": ["es5", "es2015.promise", "dom", "es2015"],
+    "target": "es5",
+    "typeRoots": ["node_modules/@types"],
+    "outDir": "dist",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": false,
+    "sourceMap": true,
+    "jsx": "react"
   },
-  "exclude": [
-      "node_modules"
-  ],
-  "include": [
-    "./src/**/*.ts"
-  ]
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*.ts", "src/index.tsx"]
 }

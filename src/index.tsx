@@ -1,6 +1,9 @@
 import { Chatty } from '@looker/chatty'
+import 'bootstrap/dist/css/bootstrap.css'
 import codemirror from 'codemirror'
 import 'codemirror/mode/javascript/javascript'
+import * as React from 'react'
+import * as ReactDOM from 'react-dom'
 
 // Example Data and Visualizations
 const queryResponse = require('../data/query_responses/2_dim_1_meas.json')
@@ -11,6 +14,44 @@ const DEPS = [
   'https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js',
   'https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js',
 ]
+class LookerVisBuilder extends React.Component {
+  render() {
+    return (
+      <div>
+        <div id="top-bar">
+          <h2>Looker Custom Visualization Builder</h2>
+          <div id="control-panel">
+            <button id="run-button">Run</button>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="grid-element column-1 row-1" id="visEditorWrapper">
+            <h4>Visualization JS</h4>
+            <div id="visEditor" class="editor" />
+          </div>
+          <div class="grid-element column-3 row-1" id="queryEditorWrapper">
+            <h4>Query Response</h4>
+            <div id="queryResponseEditor" class="editor" />
+          </div>
+          <div class="grid-element column-1 row-3" id="dataEditorWrapper">
+            <h4>Raw Data</h4>
+            <div id="dataEditor" class="editor" />
+          </div>
+          <div class="grid-element column-1 row-3" id="depsEditorWrapper">
+            <h4>Dependencies (Comma Separated)</h4>
+            <div id="depsEditor" class="editor" />
+          </div>
+          <div class="grid-element column-3 row-5" id="visWrapper">
+            <h4>Rendered Visualization</h4>
+          </div>
+        </div>
+      </div>
+    )
+  }
+}
+
+ReactDOM.render(<LookerVisBuilder />, document.getElementById('react-root'))
 
 const visCodeMirror = codemirror(document.getElementById('visEditor'), {
   value: testJS.default,

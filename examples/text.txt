@@ -3,11 +3,17 @@ looker.plugins.visualizations.add({
 		element.innerHTML = "<h1>Ready to render!</h1>";
 	},
 	updateAsync: function(data, element, config, queryResponse, details, doneRendering){
-		var html = "";
+	var html = "<table style='width: 100%; border-collapse: collapse'>";
+    var index = 1
 		for(var row of data) {
 			var cell = row[queryResponse.fields.measures[0].name];
-			html += "<p>" + LookerCharts.Utils.htmlForCell(cell) + "</p>";
+			html += `<tr>
+				<td style='border: 1px solid #333'>${index}</td>
+				<td style='border: 1px solid #333'>${LookerCharts.Utils.htmlForCell(cell)}</td>
+			</tr>`;
+      		index++;
 		}
+    	html += "</table>"
 		element.innerHTML = html;
 		doneRendering()
 	}
