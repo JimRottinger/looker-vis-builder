@@ -20,7 +20,7 @@ class LookerVisBuilder extends React.Component {
     return (
       <div>
         <div id="top-bar">
-          <h2>Looker Custom Visualization Builder</h2>
+          <h4>Looker Custom Visualization Builder</h4>
           <div id="control-panel">
             <button id="run-button" class="btn-lg btn-primary">
               Run
@@ -30,23 +30,23 @@ class LookerVisBuilder extends React.Component {
 
         <div class="grid">
           <div class="grid-element column-1 row-1" id="visEditorWrapper">
-            <h4>Visualization JS</h4>
+            <h6>Visualization JS</h6>
             <div id="visEditor" class="editor" />
           </div>
           <div class="grid-element column-3 row-1" id="queryEditorWrapper">
-            <h4>Query Response</h4>
+            <h6>Query Response</h6>
             <div id="queryResponseEditor" class="editor" />
           </div>
           <div class="grid-element column-1 row-3" id="dataEditorWrapper">
-            <h4>Raw Data</h4>
+            <h6>Raw Data</h6>
             <div id="dataEditor" class="editor" />
           </div>
           <div class="grid-element column-1 row-3" id="depsEditorWrapper">
-            <h4>Dependencies (Comma Separated)</h4>
+            <h6>Dependencies (Comma Separated)</h6>
             <div id="depsEditor" class="editor" />
           </div>
           <div class="grid-element column-3 row-5" id="visWrapper">
-            <h4>Rendered Visualization</h4>
+            <h6>Rendered Visualization</h6>
           </div>
         </div>
       </div>

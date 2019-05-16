@@ -10,7 +10,7 @@ h4 {
 }
 
 #react-root {
-  background: #ddd;
+  background: #f5f6f7;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -18,13 +18,13 @@ h4 {
   display: flex;
   flex-direction: horizontal;
   justify-content: space-between;
-  padding: 12px;
+  padding: 5px;
 }
 
 #control-panel button {
-  padding: 2px 30px;
+  padding: 1px 20px;
   font-size: 24px;
-  background: #5a2fc2;
+  background: #6c43e0;
   color: #ffffff;
 }
 
@@ -69,7 +69,7 @@ h4 {
 }
 
 #visWrapper {
-  background: #ddd;
+  background: #f5f6f7;
   color: #313335;
 }
 
@@ -79,5 +79,5 @@ h4 {
 
 .grid-element .CodeMirror {
   height: calc(100% - 34px);
-  font-size: 12px;
+  font-size: 13px;
 }
