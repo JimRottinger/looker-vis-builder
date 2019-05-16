@@ -2,6 +2,7 @@ import { Chatty } from '@looker/chatty'
 import 'bootstrap/dist/css/bootstrap.css'
 import codemirror from 'codemirror'
 import 'codemirror/mode/javascript/javascript'
+import 'codemirror/theme/darcula.css'
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 
@@ -56,6 +57,7 @@ ReactDOM.render(<LookerVisBuilder />, document.getElementById('react-root'))
 const visCodeMirror = codemirror(document.getElementById('visEditor'), {
   value: testJS.default,
   mode: 'javascript',
+  theme: 'darcula',
   tabSize: 2,
   lineNumbers: true,
 })
@@ -65,6 +67,7 @@ const queryCodeMirror = codemirror(
   {
     value: JSON.stringify(queryResponse, null, 4),
     mode: 'javascript',
+    theme: 'darcula',
     tabSize: 2,
     lineNumbers: true,
   }
@@ -73,6 +76,7 @@ const queryCodeMirror = codemirror(
 const dataCodeMirror = codemirror(document.getElementById('dataEditor'), {
   value: JSON.stringify(testData, null, 4),
   mode: 'javascript',
+  theme: 'darcula',
   tabSize: 2,
   lineNumbers: true,
 })
@@ -80,6 +84,7 @@ const dataCodeMirror = codemirror(document.getElementById('dataEditor'), {
 const depsCodeMirror = codemirror(document.getElementById('depsEditor'), {
   value: JSON.stringify(DEPS, null, 4),
   mode: 'javascript',
+  theme: 'darcula',
   tabSize: 2,
   lineNumbers: true,
 })

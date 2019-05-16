@@ -9,14 +9,15 @@ h4 {
   margin: 4px;
 }
 
+#react-root {
+  background: #ddd;
+}
+
 #top-bar {
   display: flex;
   flex-direction: horizontal;
   justify-content: space-between;
-}
-
-#control-panel {
-  padding: 20px;
+  padding: 12px;
 }
 
 #control-panel button {
@@ -57,9 +58,16 @@ h4 {
 }
 
 .grid-element {
-  border: 1px solid #333;
+  background: #313335;
+  color: #bbb;
+  border: 1px solid #999;
   box-sizing: border-box;
   padding: 5px;
+}
+
+#visWrapper {
+  background: #ddd;
+  color: #313335;
 }
 
 .grid-element .editor {
@@ -68,4 +76,5 @@ h4 {
 
 .grid-element .CodeMirror {
   height: calc(100% - 34px);
+  font-size: 12px;
 }
