@@ -22,7 +22,9 @@ class LookerVisBuilder extends React.Component {
         <div id="top-bar">
           <h2>Looker Custom Visualization Builder</h2>
           <div id="control-panel">
-            <button id="run-button">Run</button>
+            <button id="run-button" class="btn-lg btn-primary">
+              Run
+            </button>
           </div>
         </div>
 

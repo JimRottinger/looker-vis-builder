@@ -21,12 +21,14 @@ h4 {
 }
 
 #control-panel button {
-  padding: 2px;
+  padding: 2px 30px;
   font-size: 24px;
+  background: #5a2fc2;
+  color: #ffffff;
 }
 
 .grid {
-  height: 90vh;
+  height: 95vh;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: repeat(6, 16.67%);
