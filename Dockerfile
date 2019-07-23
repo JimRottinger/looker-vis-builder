@@ -11,6 +11,7 @@ WORKDIR /app
 COPY . /app
 
 # Install Dependencies and build
+RUN npm run prepare
 RUN npm run build
 
 # Start server

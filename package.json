@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "bundle install && npm install && npx webpack"
+    "prepare": "bundle install && npm install",
+    "build": "npx webpack"
   },
   "dependencies": {
     "@looker/chatty": "1.3.0",
