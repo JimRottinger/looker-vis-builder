@@ -6,6 +6,15 @@ import 'codemirror/theme/darcula.css'
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+console.log(history)
+
+
 // Example Data and Visualizations
 const queryResponse = require('../data/query_responses/2_dim_1_meas.json')
 const testData = require('../data/raw_data/2_dim_1_meas.json')
@@ -15,7 +24,9 @@ const DEPS = [
   'https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js',
   'https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.js',
 ]
-class LookerVisBuilder extends React.Component {
+
+
+class EditorGridView extends React.Component {
   render() {
     return (
       <div>
@@ -49,6 +60,23 @@ class LookerVisBuilder extends React.Component {
           </div>
         </div>
       </div>
+    )
+  }
+}
+
+class LookerVisBuilder extends React.Component {
+  render() {
+    return (
+      <Router>
+        <Switch>
+          <Route path='/'>
+            <EditorGridView />
+          </Route>
+          <Route path='/visualization'>
+            <EditorGridView />
+          </Route>
+        </Switch>
+      </Router>
     )
   }
 }
@@ -118,10 +146,13 @@ document
 
     let config = {}
     let myHost = null
+    let myHeaders = new Headers();
+    myHeaders.append('Content-Type', 'application/json')
 
     const request = new Request('/visualization/update', {
       method: 'POST',
       body: JSON.stringify(options),
+      headers: myHeaders
     })
 
     fetch(request).then((response: any) => {

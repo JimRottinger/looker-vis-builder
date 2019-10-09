@@ -1,8 +1,11 @@
 html
   head
-    - for location in dependencies
-      script[async = false src = location]
-    javascript:
+    each location in dependencies
+      script(
+        async= false
+        src= location
+      )
+    script.
       function formatType(valueFormat) {
         if (typeof valueFormat != "string") {
           return function (x) {return x}
@@ -89,6 +92,6 @@ html
         console.log("appending script")
         document.head.appendChild(script);
       })
-    script src="../node_modules/@looker/sandy/dist/sandy.js"
+    script(src="../node_modules/@looker/sandy/dist/sandy.js")
   body
-    #vis style="overflow: scroll"
+    #vis(style="overflow: scroll")
