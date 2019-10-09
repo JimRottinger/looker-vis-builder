@@ -1,6 +1,6 @@
 # Looker Custom Visualization Builder
 
-This project is a browser-based IDE for developing Looker custom visualizations. It is currently hosted at https://looker-vis-builder.rottinger.com/
+This project is a browser-based IDE for developing Looker custom visualizations. It is currently hosted at https://lookervisbuilder.com
 
 ## Getting Started
 
